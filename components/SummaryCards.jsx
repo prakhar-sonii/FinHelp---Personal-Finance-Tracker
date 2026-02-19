@@ -28,14 +28,12 @@ export default function SummaryCards({ balance, income, expense }) {
         <div className="card-icon income-icon">↑</div>
         <div className="card-label">Total Income</div>
         <div className="card-amount income-amt">{formatCurrency(income)}</div>
-
       </div>
 
       <div className="summary-card expense-card">
         <div className="card-icon expense-icon">↓</div>
         <div className="card-label">Total Spendings</div>
         <div className="card-amount expense-amt">{formatCurrency(expense)}</div>
-
       </div>
     </div>
   )
